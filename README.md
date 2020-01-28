@@ -17,7 +17,7 @@ __Why was this created?__
 This workflow was created because a 3rd-party service wanted (IMHO) too much authorization:
 * their "application will be able to read your organization, team membership, and __private project boards__."
 * their "application will be able to read and write commit statuses (no direct code access)."
-* their "This application will be able to read __your private email addresses__."
+* their "application will be able to read __your private email addresses__."
 * their "application will be able to read and modify repository webhooks and services (no direct code access)."
 * the right to share data with their unidentified service providers.
 
