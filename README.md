@@ -12,6 +12,10 @@ This workflow checks if Go (golang) code coverage satisfies the minimum specifie
 * Does not ask you to grant any permissions on GitHub.
 * Does not ask you to sign up to any 3rd-party service.
 
+__Who uses this?__
+
+It's used by [github.com/fxamacker/cbor](https://github.com/fxamacker/cbor).
+
 __Why was this created?__  
 
 This workflow was created because a 3rd-party service wanted (IMHO) too much authorization:
