@@ -28,16 +28,15 @@ __Installation__
 
 __Who uses this?__
 
-It's used by [github.com/fxamacker/cbor](https://github.com/fxamacker/cbor).
+* [github.com/fxamacker/cbor](https://github.com/fxamacker/cbor). [Issue 115](https://github.com/fxamacker/cbor/issues/115).
+* [github.com/x448/float16](https://github.com/x448/float16)
 
 __Why was this created?__  
 
 This workflow was created because a 3rd-party service wanted (IMHO) too much authorization:
 * their "application will be able to read your organization, team membership, and __private project boards__."
-* their "application will be able to read and write commit statuses (no direct code access)."
 * their "application will be able to read __your private email addresses__."
-* their "application will be able to read and modify repository webhooks and services (no direct code access)."
-* the right to share data with their unidentified service providers.
+* their privacy policy mentioned IP addresses and the right to share data with their unidentified service providers.
 
 ## License
 Copyright (c) 2020-present Montgomery Edwards⁴⁴⁸ (github.com/x448)
