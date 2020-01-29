@@ -4,10 +4,10 @@
 This workflow checks if Go (golang) code coverage satisfies the minimum specified percent for your project.
 
 Example from fxamacker/cbor:  
-[![](https://github.com/fxamacker/cbor/workflows/cover%20%E2%89%A597%25/badge.svg)](https://github.com/fxamacker/cbor/blob/master/.github/workflows/ci-go-cover.yml)
+[![](https://github.com/fxamacker/cbor/workflows/cover%20%E2%89%A597%25/badge.svg)](https://github.com/fxamacker/cbor/actions?query=workflow%3A%22cover+%E2%89%A597%25%22)
 
 Example from x448/float16:  
-[![](https://github.com/x448/float16/workflows/cover%20100%25/badge.svg)](https://github.com/x448/float16/blob/master/.github/workflows/cover.yml)
+[![](https://github.com/x448/float16/workflows/cover%20100%25/badge.svg)](https://github.com/x448/float16/actions?query=workflow%3A%22cover+100%25%22)
 
 * GitHub generates badge.svg you can display in your README.md.
 * GitHub will display success or failure in your pull requests and commits.
