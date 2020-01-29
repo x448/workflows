@@ -38,6 +38,13 @@ This workflow was created because a 3rd-party service wanted (IMHO) too much aut
 * their "application will be able to read __your private email addresses__."
 * their privacy policy mentioned IP addresses and the right to share data with their unidentified service providers.
 
+## Hash
+BLAKE2B for ci-go-cover.yml 2020.1.28:  
+13ab0715bbae856dfa6e6fac3e785d4e2cf040a9270d7104b4a13041f6d3ba99f7649f820a1d776597afa0b837ee1e711a9469a3bfc75be474c97843b2020f12
+
+SHA384 for ci-go-cover.yml 2020.1.28:  
+2fbabc14f7f9dbde8e749109f40239ab3ea7d4b320e532757990cd839cbe3d4ad61611d926d8d0413778859f98028201
+
 ## License
 Copyright (c) 2020-present Montgomery Edwards⁴⁴⁸ (github.com/x448)
 
