@@ -20,6 +20,12 @@ Example from x448/float16:
 
 If there's enough demand, I can update this to compare coverage with prior commit.
 
+__Installation__
+
+0. Copy this file to github.com/OWNER_NAME/REPO_NAME/.github/workflows/ci-go-cover.yml  
+1. Change workflow name from "cover 100%" to "cover ≥92.5%". Script will automatically use 92.5%.  
+2. Update README.md to use the new path to badge.svg because the path includes the workflow name.  
+
 __Who uses this?__
 
 It's used by [github.com/fxamacker/cbor](https://github.com/fxamacker/cbor).
@@ -32,12 +38,6 @@ This workflow was created because a 3rd-party service wanted (IMHO) too much aut
 * their "application will be able to read __your private email addresses__."
 * their "application will be able to read and modify repository webhooks and services (no direct code access)."
 * the right to share data with their unidentified service providers.
-
-__Installation__
-
-0. Copy this file to github.com/OWNER_NAME/REPO_NAME/.github/workflows/ci-go-cover.yml  
-1. Change workflow name from "cover 100%" to "cover ≥92.5%". Script will automatically use 92.5%.  
-2. Update README.md to use the new path to badge.svg because the path includes the workflow name.  
 
 ## License
 Copyright (c) 2020-present Montgomery Edwards⁴⁴⁸ (github.com/x448)
