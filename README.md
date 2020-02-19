@@ -31,6 +31,30 @@ __Who uses this?__
 * [github.com/fxamacker/cbor](https://github.com/fxamacker/cbor). [Issue 115](https://github.com/fxamacker/cbor/issues/115).
 * [github.com/x448/float16](https://github.com/x448/float16)
 
+__What's the catch?__
+
+There's less automation and fewer features than services that require you to sacrifice more privacy.
+
+If you modify the GitHub Actions workflow name in ci-go-cover.yml to specify a different required minimum coverage, then you need to update the README.md to update link to badge.svg as well its destination URL.
+
+The destination URL only displays the CI info for builds matching the name specified in ci-go-cover.yml.  So it doesn't list any of the prior builds which kinda makes sense (if you think of this as a query) but isn't obvious.
+
+For example, this is what changed in README.md for [fxamacker/cbor](https://github.com/fxamacker/cbor) when min coverage got bumped up from ≥97% to ≥98%.  You can click on the following two badges to see GitHub displays different results.
+
+From:  
+[![](https://github.com/fxamacker/cbor/workflows/cover%20%E2%89%A597%25/badge.svg)](https://github.com/fxamacker/cbor/actions?query=workflow%3A%22cover+%E2%89%A597%25%22)
+
+```
+[![](https://github.com/fxamacker/cbor/workflows/cover%20%E2%89%A597%25/badge.svg)](https://github.com/fxamacker/cbor/actions?query=workflow%3A%22cover+%E2%89%A597%25%22)
+```
+
+To:  
+[![](https://github.com/fxamacker/cbor/workflows/cover%20%E2%89%A598%25/badge.svg)](https://github.com/fxamacker/cbor/actions?query=workflow%3A%22cover+%E2%89%A598%25%22)
+
+```
+[![](https://github.com/fxamacker/cbor/workflows/cover%20%E2%89%A598%25/badge.svg)](https://github.com/fxamacker/cbor/actions?query=workflow%3A%22cover+%E2%89%A598%25%22)
+```
+
 __Why was this created?__  
 
 This workflow was created because a 3rd-party service wanted (IMHO) too much authorization:
