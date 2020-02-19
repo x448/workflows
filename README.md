@@ -31,6 +31,13 @@ __Who uses this?__
 * [github.com/fxamacker/cbor](https://github.com/fxamacker/cbor). [Issue 115](https://github.com/fxamacker/cbor/issues/115).
 * [github.com/x448/float16](https://github.com/x448/float16)
 
+__Why was this created?__  
+
+This workflow was created because a 3rd-party service wanted (IMHO) too much authorization:
+* their "application will be able to read your organization, team membership, and __private project boards__."
+* their "application will be able to read __your private email addresses__."
+* their privacy policy mentioned IP addresses and the right to share data with their unidentified service providers.
+
 __What's the catch?__
 
 There's less automation and fewer features than services that require you to sacrifice more privacy.
@@ -54,13 +61,6 @@ To:
 ```
 [![](https://github.com/fxamacker/cbor/workflows/cover%20%E2%89%A598%25/badge.svg)](https://github.com/fxamacker/cbor/actions?query=workflow%3A%22cover+%E2%89%A598%25%22)
 ```
-
-__Why was this created?__  
-
-This workflow was created because a 3rd-party service wanted (IMHO) too much authorization:
-* their "application will be able to read your organization, team membership, and __private project boards__."
-* their "application will be able to read __your private email addresses__."
-* their privacy policy mentioned IP addresses and the right to share data with their unidentified service providers.
 
 ## Hash
 BLAKE2B for ci-go-cover.yml 2020.1.28:  
