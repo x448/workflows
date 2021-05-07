@@ -1,7 +1,11 @@
-# Privacy Respecting Workflows using GitHub Actions
+# Secure Workflows using GitHub Actions
 
 ## CI Go Coverage - ci-go-cover.yml
-This workflow checks if Go (golang) code coverage satisfies the minimum specified percent for your project.
+This self-contained workflow checks if Go (golang) code coverage satisfies the minimum specified percent for your project.
+
+It doesn't download and execute scripts hosted by 3rd parties because [doing such things leads to bad problems](https://www.securityweek.com/codecov-bash-uploader-dev-tool-compromised-supply-chain-hack).
+
+The code to check coverage is very small, easy to audit, and embedded inside GitHub Actions workflow .yml file.
 
 Example from fxamacker/cbor:  
 [![](https://github.com/fxamacker/cbor/workflows/cover%20%E2%89%A598%25/badge.svg)](https://github.com/fxamacker/cbor/actions?query=workflow%3A%22cover+%E2%89%A598%25%22)
@@ -28,7 +32,8 @@ __Installation__
 
 __Who uses this?__
 
-* [github.com/fxamacker/cbor](https://github.com/fxamacker/cbor). [Issue 115](https://github.com/fxamacker/cbor/issues/115).
+* [github.com/fxamacker/cbor](https://github.com/fxamacker/cbor) - a fuzz-tested CBOR library
+* [github.com/veraison](https://github.com/veraison) - This open software initiative is creating software that can be used to build device attestation verification services that can support many architectures. To support the Arm Confidential Compute Architecture, contributions to the Veraison project will develop plug-ins that implement the Arm Confidential Compute Architecture attestation model.
 * [github.com/x448/float16](https://github.com/x448/float16)
 
 __Why was this created?__  
