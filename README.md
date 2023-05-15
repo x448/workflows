@@ -8,7 +8,7 @@ It doesn't download and execute scripts hosted by 3rd parties because [doing suc
 The code to check coverage is very small, easy to audit, and embedded inside GitHub Actions workflow .yml file.
 
 Example from fxamacker/cbor:  
-[![](https://github.com/fxamacker/cbor/workflows/cover%20%E2%89%A598%25/badge.svg)](https://github.com/fxamacker/cbor/actions?query=workflow%3A%22cover+%E2%89%A598%25%22)
+[![](https://github.com/fxamacker/cbor/workflows/cover%20%E2%89%A596%25/badge.svg)](https://github.com/fxamacker/cbor/actions?query=workflow%3A%22cover+%E2%89%A596%25%22)
 
 Example from x448/float16:  
 [![](https://github.com/x448/float16/workflows/cover%20100%25/badge.svg)](https://github.com/x448/float16/actions?query=workflow%3A%22cover+100%25%22)
